@@ -1,0 +1,59 @@
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(74, 74, 74, 90%);
+}
+
+.container {
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 520px;
+    padding: 15px;
+    width: 345px;
+    height: 163px;
+    border-radius: 5px;
+}
+
+.title_and_cancel_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #2E2E2E;
+}
+
+.input {
+    width: 284px;
+    margin-top: 20px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid;
+    line-height: 16px;
+
+}
+
+.bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBttn {
+    margin-top: 30px;
+    width: 259px;
+    height: 32px;
+    border-radius: 25px;
+    background-color: #0008C1;
+    border: none;
+    color: #fff;
+    align-items: center;
+}
